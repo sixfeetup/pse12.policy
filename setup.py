@@ -39,8 +39,6 @@ setup(
         'sixfeetup.utils>=2.8',
         'Plone',
         'plone.app.caching',
-        #'pse12.theme',
-        #'pse12.content',
     ],
     entry_points="""
     # -*- Entry points: -*-
