@@ -38,6 +38,8 @@ setup(
         # -*- Extra requirements: -*-
         'sixfeetup.utils>=2.8',
         'Plone',
+        'Pillow',
+        'Products.signalstack',
         'plone.app.caching',
     ],
     entry_points="""
