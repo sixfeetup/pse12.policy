@@ -3,5 +3,6 @@
     <version>001</version>
     <dependencies>
         <dependency>profile-plone.app.theming:default</dependency>
+        <dependency>profile-collective.blog.star:default</dependency>
     </dependencies>
 </metadata>

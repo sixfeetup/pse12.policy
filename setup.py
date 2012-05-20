@@ -41,6 +41,7 @@ setup(
         'Pillow',
         'Products.signalstack',
         'plone.app.caching',
+        'collective.blog.star',
         'plonetheme.transition',
         'pse12.initialcontent',
     ],
