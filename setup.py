@@ -42,6 +42,7 @@ setup(
         'Products.signalstack',
         'plone.app.caching',
         'plonetheme.transition',
+        'pse12.initialcontent',
     ],
     entry_points="""
     # -*- Entry points: -*-
