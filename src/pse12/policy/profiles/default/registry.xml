@@ -1,0 +1,33 @@
+<registry>
+  <record field="enabled" interface="plone.app.theming.interfaces.IThemeSettings" name="plone.app.theming.interfaces.IThemeSettings.enabled">
+    <field type="plone.registry.field.Bool">
+      <default>False</default>
+      <description>enable_theme_globally</description>
+      <title>enabled</title>
+    </field>
+    <value>True</value>
+  </record>
+  <record field="absolutePrefix" interface="plone.app.theming.interfaces.IThemeSettings" name="plone.app.theming.interfaces.IThemeSettings.absolutePrefix">
+    <field type="plone.registry.field.TextLine">
+      <description>convert_relative_url</description>
+      <required>False</required>
+      <title>absolute_url_prefix</title>
+    </field>
+    <value>/++theme++plonetheme.transition</value>
+  </record>
+  <record field="currentTheme" interface="plone.app.theming.interfaces.IThemeSettings" name="plone.app.theming.interfaces.IThemeSettings.currentTheme">
+    <field type="plone.registry.field.TextLine">
+      <description>current_theme_description</description>
+      <title>current_theme</title>
+    </field>
+    <value>plonetheme.transition</value>
+  </record>
+  <record field="rules" interface="plone.app.theming.interfaces.IThemeSettings" name="plone.app.theming.interfaces.IThemeSettings.rules">
+    <field type="plone.registry.field.TextLine">
+      <description>rules_file_path</description>
+      <required>False</required>
+      <title>rules_file</title>
+    </field>
+    <value>/++theme++plonetheme.transition/rules.xml</value>
+  </record>
+</registry>

@@ -41,6 +41,7 @@ setup(
         'Pillow',
         'Products.signalstack',
         'plone.app.caching',
+        'plonetheme.transition',
     ],
     entry_points="""
     # -*- Entry points: -*-
